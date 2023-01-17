@@ -26,6 +26,7 @@ public class Alarm {
     @Column(nullable = false)
     private boolean confirmed;
 
+
     @CreatedDate
     @Column(name = "created_datetime")
     private LocalDateTime createdDatetime;
